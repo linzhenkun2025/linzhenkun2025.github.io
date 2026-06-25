@@ -1,11 +1,11 @@
 :root {
-  --body-bg-color: #fff;
+  --body-bg-color: #fdfdfd;
   --content-bg-color: #fff;
   --card-bg-color: #f5f5f5;
-  --text-color: #555;
-  --blockquote-color: #666;
-  --link-color: #555;
-  --link-hover-color: #222;
+  --text-color: #111;
+  --blockquote-color: #828282;
+  --link-color: #111;
+  --link-hover-color: #4d74eb;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
@@ -177,7 +177,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
 }
@@ -193,7 +193,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lora', 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -580,7 +580,7 @@ pre .javascript .function {
   margin-bottom: 10px;
 }
 .post-body .label {
-  color: #555;
+  color: #111;
   display: inline;
   padding: 0 2px;
 }
@@ -921,7 +921,7 @@ pre .javascript .function {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 800px;
 }
 @media (min-width: 1200px) {
   .main-inner {
@@ -930,7 +930,7 @@ pre .javascript .function {
 }
 @media (min-width: 1600px) {
   .main-inner {
-    width: 900px;
+    width: 800px;
   }
 }
 @media (max-width: 767px) {
@@ -943,7 +943,7 @@ pre .javascript .function {
 }
 .header-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 800px;
 }
 @media (min-width: 1200px) {
   .header-inner {
@@ -952,7 +952,7 @@ pre .javascript .function {
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 900px;
+    width: 800px;
   }
 }
 .site-brand-container {
@@ -985,7 +985,7 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lora', 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #30ffc4;
+  background: #cfd96e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1382,7 +1382,7 @@ pre .javascript .function {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  width: 700px;
+  width: 800px;
 }
 @media (min-width: 1200px) {
   .footer-inner {
@@ -1391,7 +1391,7 @@ pre .javascript .function {
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 900px;
+    width: 800px;
   }
 }
 .languages {
@@ -1512,7 +1512,7 @@ pre .javascript .function {
   }
 }
 .post-body {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lora', 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -1810,7 +1810,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lora', 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin: 3px 0 60px 0;
   text-align: center;
@@ -2295,4 +2295,102 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+.post-title,
+.post-title-link {
+  letter-spacing: -1px;
+}
+.post-body a,
+.post-content a {
+  color: #4d74eb;
+  border-bottom: none;
+}
+.post-body a:visited,
+.post-content a:visited {
+  color: #1337a6;
+}
+.post-body a:hover,
+.post-content a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+.post-body blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-style: italic;
+}
+.post-block,
+.posts-expand .post-block {
+  border: none;
+  box-shadow: none;
+}
+.site-nav .menu-item-dropdown {
+  position: relative;
+}
+.site-nav .menu-item-dropdown .dropbtn {
+  cursor: pointer;
+}
+.site-nav .menu-item-dropdown .dropdown-caret {
+  font-size: 0.6em;
+  margin-left: 3px;
+  vertical-align: middle;
+}
+.site-nav .menu-item-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 220px;
+  max-width: 320px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+  border-radius: 6px;
+  padding: 6px 0;
+  margin: 0;
+  z-index: 1000;
+  text-align: left;
+}
+.site-nav .menu-item-dropdown:hover .dropdown-content {
+  display: block;
+}
+.site-nav .menu-item-dropdown .dropdown-content li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.site-nav .menu-item-dropdown .dropdown-content li a {
+  display: block;
+  padding: 8px 16px;
+  color: #111;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: normal;
+  border: none;
+}
+.site-nav .menu-item-dropdown .dropdown-content li a:hover {
+  background-color: #f0f0f0;
+  color: #4d74eb;
+}
+@media (max-width: 767px) {
+  .site-nav .menu-item-dropdown .dropdown-content {
+    position: static;
+    transform: none;
+    display: block;
+    box-shadow: none;
+    border: none;
+    min-width: auto;
+    background: transparent;
+  }
 }
