@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #cfd96e;
+  background: #b18258;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2333,6 +2333,124 @@ h6 {
   border: none;
   box-shadow: none;
 }
+.posts-expand .post-title,
+.post-title,
+.post-block .post-title {
+  text-align: left;
+}
+.posts-expand .post-meta-container,
+.post-meta-container,
+.post-meta,
+.posts-expand .post-meta {
+  text-align: left;
+}
+.sidebar {
+  background: #fdfdfd;
+  border-right: 1px solid #e8e8e8;
+}
+.post-toc .nav-item,
+.site-overview-wrap,
+.sidebar .author-info,
+.sidebar-nav li a {
+  color: #111;
+}
+.post-toc .nav-item a,
+.post-toc a {
+  color: #4d74eb;
+}
+.post-toc .nav .nav-item.active > a,
+.post-toc .nav .active-current > a {
+  color: #800080;
+  font-weight: bold;
+}
+.sidebar-nav li.sidebar-nav-active,
+.sidebar-nav li:hover {
+  color: #4d74eb;
+}
+.header {
+  background: #fdfdfd;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 10px;
+  min-height: 55px;
+}
+.site-brand-container {
+  padding: 0;
+  flex-shrink: 0;
+}
+.brand {
+  background: transparent !important;
+  padding: 0;
+}
+.site-title {
+  color: #424242 !important;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 54px;
+  margin: 0;
+}
+.logo-line-before,
+.logo-line-after {
+  display: none;
+}
+.site-nav {
+  margin: 0;
+  flex: 0 0 auto;
+}
+@media (min-width: 992px) {
+  .site-nav .menu {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 55px;
+  }
+  .site-nav .menu-item {
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+  }
+}
+.menu-item a,
+.menu-item span.exturl,
+.menu-item .dropbtn {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #111;
+  white-space: nowrap;
+}
+.menu-item .dropbtn {
+  display: inline-flex;
+  align-items: center;
+}
+.menu-item a:hover,
+.menu-item .dropbtn:hover {
+  color: #111;
+  text-decoration: underline;
+}
+.dropdown-caret {
+  margin-left: 4px;
+}
+.use-motion .menu-item {
+  opacity: 1;
+}
+.post-button .btn {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: #4d74eb;
+  padding: 0;
+  font-size: 16px;
+}
+.post-button .btn:hover {
+  background: transparent;
+  color: #111;
+  text-decoration: underline;
+}
 .site-nav .menu-item-dropdown {
   position: relative;
 }
@@ -2350,8 +2468,8 @@ h6 {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  min-width: 220px;
-  max-width: 320px;
+  min-width: 260px;
+  max-width: 340px;
   background-color: #fff;
   border: 1px solid #e8e8e8;
   box-shadow: 0 8px 16px rgba(0,0,0,0.12);
