@@ -1,438 +1,177 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+
+<html lang="en" class="no-js">
+  
+
+
+
+
+
+
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 8.0.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2026/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://example.com/archives/2026/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : false,
-    lang   : 'en'
-  };
-</script>
-
-  <title>Archive | Hexo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Zhenkun Lin</title>
+  <meta name="description" content="Personal homepage and technical writing by Zhenkun Lin, focused on agent post-training, agentic reinforcement learning, evaluation, and recommender systems.">
+  <meta name="keywords" content="agent post-training, agentic reinforcement learning, LLM agents, evaluation, recommender systems">
+  <meta name="author" content="Zhenkun Lin">
+  <link rel="canonical" href="https://linzhenkun2025.github.io/archives/2026/">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
   
+<link rel="stylesheet" href="/css/style.css">
 
+  
+<meta name="generator" content="Hexo 8.0.0"></head>
 
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
-      <span class="logo-line-after"><i></i></span>
+  <body class="page-type-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="masthead" data-site-header>
+  <div class="masthead__inner">
+    <a class="site-brand" href="/" aria-label="Zhenkun Lin homepage">
+      <span class="site-brand__mark" aria-hidden="true">ZL</span>
+      <span class="site-brand__name">Zhenkun Lin</span>
     </a>
-  </div>
 
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-menu-toggle>
+      <span class="nav-toggle__label">Menu</span>
+      <span class="nav-toggle__icon" aria-hidden="true"></span>
+    </button>
 
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section">Home</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section">Archives</a>
-
-  </li>
-        <li class="menu-item menu-item-bookmarks">
-
-    <a href="/bookmarks/" rel="section">Bookmarks</a>
-
-  </li>
-        <li class="menu-item menu-item-dropdown">
-          <a class="dropbtn" role="button">
-            机器学习 <i class="fa fa-chevron-down dropdown-caret"></i>
-          </a>
-          <ul class="dropdown-content">
-              <li><a href="/2026/06/15/lora-without-regret/">LoRA Without Regret 学习笔记</a></li>
-              <li><a href="/2025/10/08/推荐召回/">推荐召回</a></li>
-          </ul>
-        </li>
-        <li class="menu-item menu-item-dropdown">
-          <a class="dropbtn" role="button">
-            读书笔记 <i class="fa fa-chevron-down dropdown-caret"></i>
-          </a>
-          <ul class="dropdown-content">
-              <li><a href="https://thinkingmachines.ai/blog/on-policy-distillation/" target="_blank" rel="noopener">On-Policy Distillation</a></li>
-              <li><a href="https://nrehiew.github.io/blog/sft_rl_opd/" target="_blank" rel="noopener">SFT vs RL vs OPD</a></li>
-              <li><a href="https://sebastianraschka.com/llm-architecture-gallery/mtp/" target="_blank" rel="noopener">MTP · LLM Architecture Gallery</a></li>
-          </ul>
-        </li>
-        <li class="menu-item menu-item-dropdown">
-          <a class="dropbtn" role="button">
-            随笔 <i class="fa fa-chevron-down dropdown-caret"></i>
-          </a>
-          <ul class="dropdown-content">
-              <li><a href="/2025/10/08/hello-world/">Hello World</a></li>
-              <li><a href="/2025/10/16/我的新文章/">我的新文章</a></li>
-          </ul>
-        </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <ul class="site-menu" id="site-menu" data-site-menu>
+        
           
-
-          <div class="content archive">
-            
-
-  
-  
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">Um..! 5 posts in total. Keep on posting.</span>
-      </div>
-
-      
-    <div class="collection-year">
-      <span class="collection-header">2026</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2026-06-15T10:00:00+08:00"
-              content="2026-06-15">
-          06-15
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2026/06/15/lora-without-regret/" itemprop="url">
-            <span itemprop="name">学习笔记｜LoRA Without Regret：监督学习与强化学习各需要多少容量</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-
-    </div>
-  </div>
-  
-  
-  
-
-  
-
-
-
-          </div>
+          <li><a href="/#about-me" data-nav-link>Homepage</a></li>
+        
           
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
+          <li><a href="/#research" data-nav-link>Research</a></li>
+        
           
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
+          <li><a href="/#experience" data-nav-link>Experience</a></li>
+        
+          
+          <li><a href="/blog/" data-nav-link>Writing</a></li>
+        
+          
+          <li><a href="/bookmarks/" data-nav-link>Bookmarks</a></li>
+        
+          
+          <li><a href="/archives/" data-nav-link>Archives</a></li>
+        
       </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">5</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">categories</span>
-      </div>
-      <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">6</span>
-        <span class="site-state-item-name">tags</span>
-      </div>
-  </nav>
-</div>
-
-
-
-      </div>
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2026</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
-</div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+    </nav>
   </div>
-
-        
-
+</header>
 
 
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
+    <div class="site-shell" id="main">
       
+<aside class="profile" aria-label="Author profile">
+  <div class="profile__identity">
+    <div class="profile__avatar" role="img" aria-label="Zhenkun Lin monogram">
+      <span>ZL</span>
+    </div>
+    <div class="profile__heading">
+      <p class="profile__name">Zhenkun Lin</p>
+      <p class="profile__name-zh" lang="zh-CN">林镇坤</p>
+      <p class="profile__role">Agent Post-training Engineer</p>
+    </div>
+  </div>
 
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-          load: ['[tex]/mhchem'],
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-          packages: {'[+]': ['mhchem']},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
+  <p class="profile__bio">Building and evaluating learning systems for capable, reliable LLM agents.</p>
 
+  <ul class="profile__links">
     
+      <li>
+        <span class="profile__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.1 7 13 7 13s7-7.9 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/></svg>
+        </span>
+        <span>China</span>
+      </li>
+    
+    
+      <li>
+        <a href="mailto:linzhenkun2025@gmail.com">
+          <span class="profile__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm9 7 8-5H4l8 5Zm0 2.3L3 8.7V17h18V8.7l-9 5.6Z"/></svg>
+          </span>
+          <span>Email</span>
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="https://github.com/linzhenkun2025" target="_blank" rel="noopener noreferrer">
+          <span class="profile__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 .7a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.3c-3.4.7-4.1-1.4-4.1-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.6-1.4-5.6-6a4.7 4.7 0 0 1 1.3-3.3 4.4 4.4 0 0 1 .1-3.3s1-.3 3.3 1.3a11.5 11.5 0 0 1 6 0c2.3-1.6 3.3-1.3 3.3-1.3a4.4 4.4 0 0 1 .1 3.3 4.7 4.7 0 0 1 1.3 3.3c0 4.7-2.9 5.7-5.6 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .7Z"/></svg>
+          </span>
+          <span>GitHub</span>
+        </a>
+      </li>
+    
+    <li>
+      <a href="/blog/">
+        <span class="profile__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm2 4v2h10V7H7Zm0 4v2h10v-2H7Zm0 4v2h7v-2H7Z"/></svg>
+        </span>
+        <span>Writing</span>
+      </a>
+    </li>
+  </ul>
+</aside>
 
+      <main class="page-main" id="main-content" tabindex="-1">
+        <article class="content-page content-page--archive">
+  <header class="page-header">
+    <p class="eyebrow">Archive</p>
+    <h1>All Writing</h1>
+  </header>
   
 
-</body>
+  <ol class="writing-list">
+    
+      
+      <li class="writing-item">
+        <div class="writing-item__date"><time datetime="2026-06-15T02:00:00.000Z">2026-06-15</time></div>
+        <div class="writing-item__content">
+          <h2><a href="/2026/06/15/lora-without-regret/">学习笔记｜LoRA Without Regret：监督学习与强化学习各需要多少容量</a></h2>
+          <p>原文：LoRA Without Regret — Thinking Machines 重点章节：How much capacity is needed by supervised and reinforcement learning 一句话总结 LoRA 不是天生比全量微调（FullFT）差。只要满足两个条件——(1) 把 LoRA 加…</p>
+          
+            <ul class="tag-list" aria-label="Tags">
+              
+                <li><a href="/tags/LoRA/">LoRA</a></li>
+              
+                <li><a href="/tags/%E5%BE%AE%E8%B0%83/">微调</a></li>
+              
+                <li><a href="/tags/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/">强化学习</a></li>
+              
+                <li><a href="/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/">阅读笔记</a></li>
+              
+            </ul>
+          
+        </div>
+      </li>
+    
+  </ol>
+
+
+  
+</article>
+
+      </main>
+    </div>
+
+    <footer class="site-footer">
+  <p>
+    &copy; 2026 Zhenkun Lin.
+    Structure adapted from <a href="https://github.com/RayeRen/acad-homepage.github.io" target="_blank" rel="noopener noreferrer">AcadHomepage</a>.
+  </p>
+</footer>
+
+<script src="/js/main.js"></script>
+
+
+  </body>
 </html>
